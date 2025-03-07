@@ -18,7 +18,7 @@ function btnflash(btn){
         btn.classList.remove("flash");
     },250);
 };
-function lvlup(){
+function lvlup(){//This is the function for level up the game
     usersq=[];
     level++;
     h3.innerText=`Level ${level}`;
